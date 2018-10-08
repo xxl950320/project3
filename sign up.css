@@ -1,0 +1,368 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	height: 60px;
+	/*border:1px solid black;*/
+}
+.header .hbox{
+	width: 1200px;
+	height: 60px;
+	margin: 12px auto 14px;
+}
+.header .hbox .he-r{
+	float: right;
+	margin-top: 20px; 
+}
+.header .hbox .he-r span{
+	display: inline-block;
+	width: 15px;
+	height: 19px;
+	vertical-align: middle;
+	background: url(x-images/improve.png) no-repeat;
+}
+.header .hbox .he-r a{
+	color: #787878;
+	font-size: 12px;
+}
+.content{
+	position: relative;
+	height: 590px;
+	background: url(x-images/2018080719335797998.jpg) no-repeat center center;
+}
+.content .conbox{
+	position:relative;
+	top:0;
+	left: 170px;
+	width:1200px;
+	margin:0 auto;
+}
+.content .ct{
+	display: block;
+	width: 338px;
+	height: 24px;
+	line-height: 24px;
+	color: #828282;
+	padding-left: 22px;
+	border: 1px solid #fedbd1;
+	position: absolute;
+	top: 80px;
+	right: 170px;
+	background: url(x-images/new_tip.png) 3px 5px no-repeat #fef7f5;
+}
+.ct .careful{
+	line-height: 24px; 
+	font-size: 12px;
+	color: #828282;
+}
+.ct .careful a{
+	font-size: 12px;
+}
+.ct .careful a:hover{
+	text-decoration: underline;
+}
+.paw{
+	width: 320px;
+	height: 425.4px;
+	float: right;
+	position: relative;
+	border: 1px solid #eef2f4;
+	box-shadow: 0px 1px 2px #eee;
+	margin: 106px 170px 0 0;
+	color: #6e6e6e;
+	padding: 15px 25px 15px 15px;
+}
+.paw .sign-up{
+	font-size: 18px;
+	margin-top: 5px;
+	color: #3c3c3c;
+}
+.paw .qrc{
+	position: absolute;
+	top:7px;
+	right: 68px;
+	border: 1px solid #fedbd1;		
+	background-color: #fef7f5;
+	padding: 4px 6px;
+}
+.paw .qrc .protect{
+	background: url(x-images/safe_icon.png) no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 17px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.paw .qrc{
+	color: #ff572a;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+.paw .qrc .pic{
+	background: url(x-images/arrow_right_icon.png) no-repeat;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	right: -12px;
+	top: 6px;
+}
+.paw .pa{
+	width: 55px;
+	height: 55px;
+	position:absolute;
+	top: 7px;
+	right: 5px;
+	display: block;
+	z-index: 10;
+}
+.paw .input{
+	margin-top: 20px;
+	position: relative;
+	width: 310px;
+	height: 36px;
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+}
+.paw .input span{
+	width: 30px;
+	height: 36px;
+	float: left;
+	margin-right: 10px;
+	background: url(x-images/icon_20150706.png) 10px -110px no-repeat;
+}
+.paw .input input{
+	width: 270px;
+	height: 34px;
+	line-height: 34px;
+	border: 0;
+	color: #333;
+	float: left;
+	font-family: "Microsoft YaHei";
+	padding: 0;
+	outline: none;
+}
+.paw .input2{
+	position: relative;
+	width: 310px;
+	height: 36px;
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+	margin-top: 30px;
+}
+.paw .input2 span{
+	width: 30px;
+	height: 36px;
+	float: left;
+	margin-right: 10px;
+	background: url(x-images/icon_20150706.png) 10px -150px no-repeat;
+}
+.paw .input2 input{
+	height: 34px;
+	line-height: 34px;
+	border: 0;
+	float: left;
+	color: #333;
+	font-family: "Microsoft YaHei";
+	padding: 0 ;
+	outline: none;
+}
+.paw .bgpic{
+	margin-top: 30px;
+	width: 312px;
+	padding: 0;
+	margin-bottom: 10px;
+	overflow: hidden;
+	font-size: 14px;
+}
+.paw .bgpic .con{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.paw .bgpic .con .tran{
+	margin-left: 50px;
+	font-size: 14px;
+}
+.paw .bgpic .con .tran:hover{
+	text-decoration: underline;
+}
+.paw .pic-tran .rotate-background{
+	width: 76px;
+	height: 76px;
+	margin: 0 1px 0;
+	float: left;
+}
+.pic-tran .pic1{
+	background: url(x-images/rotate.jpg) 0 0 no-repeat;
+}
+.pic-tran .pic2{
+	background: url(x-images/rotate.jpg) -76px 0 no-repeat;
+}
+.pic-tran .pic3{
+	background: url(x-images/rotate.jpg) -152px 0 no-repeat;
+}
+.pic-tran .pic4{
+	background: url(x-images/rotate.jpg) -228px 0 no-repeat;
+}
+.paw .check{
+	width: 310px;
+	height: 27px;
+	line-height: 22px;
+	padding-top: 7px;
+	/*border: 1px solid black;*/
+	overflow: hidden;
+}
+.paw .check span,a{
+	font-size: 12px;
+}
+.paw .check a{
+	float: right;
+}
+.paw .check a:hover{
+	text-decoration: underline;
+}
+.btn{
+	/*width: 100%;
+	height: 44px;
+	text-align: center;
+	border-radius: 5px;
+	font: normal 20px/44px "Microsoft YaHei";
+	background-color: #ff2832;
+	display: inline-block;*/
+}
+.btn button{
+	width: 100%;
+	height: 44px;
+	text-align: center;
+	border-radius: 5px;
+	font: normal 20px/44px "Microsoft YaHei";
+	background-color: #ff2832;
+	display: inline-block;
+	border: none;
+	/*outline: none;*/
+	/*border: 1px solid black;*/
+	color:#fff;
+}
+.paw .co{
+	width: 100%;
+	height: 24px;
+	line-height: 24px;
+	padding-top: 6px;
+}
+.paw .co span{
+	font-size: 12px;
+}
+.paw .co a{
+	color:#505050;
+	float:right;
+}
+.paw .co a:hover{
+	text-decoration: underline;
+}
+.paw .partner dl dt{
+	float: left;
+	margin-right: 5px;
+}
+.paw .partner dl dt a{
+	width: 20px;
+	height: 20px;
+	display: block;
+	overflow: hidden;
+}
+.paw .partner dl dd{
+	position: relative;
+	float: left;
+	line-height: 20px;
+	padding-left: 10px;
+}
+.partner dl dd a{
+	color: #969696;
+}
+.partner dl dd a em{
+	width: 8px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin-left: 5px;
+	background: url(x-images/icon_20150706.png) 0 -340px no-repeat; 
+}
+.footer{
+	border: 1px solid #ebebeb;
+	width: 100%;
+	min-width: 960px;
+	padding: 17px 0 50px;
+}/*
+.box::after{
+	content: "";
+	display: block;
+	clear: both;
+}*/
+.footer .box{
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 17px;
+	text-align: center;
+	line-height: 20px;
+	/*float: left;*/
+}
+.box ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.box ul{
+	width: 1200px;
+	/*overflow: hidden;*/
+	margin: 0 auto;
+	text-align: center;
+	line-height: 2em;
+}
+.box ul li{
+	float: left;
+	margin-right: 20px;
+	text-align: center;
+}
+.box ul li,.box a{
+	color: #8c8c8c;
+	font-size: 12px;
+}
+.box ul li a:hover{
+	color: #f48570;
+	text-decoration: underline;
+}
+.footer .dang{
+	width: 960px;
+	padding-top: 10px;
+	line-height: 20px;
+	margin: 0 auto;
+	text-align: center;
+	color: #8c8c8c;
+	font-size: 12px;
+}
+.footer .card{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 10px;
+	line-height: 20px;
+	text-align:center;
+	font-size: 12px;
+	color:#8c8c8c;
+}
+.footer .card p  span{
+	margin-right: 15px;
+}
+.footer .icon{
+	width: 640px;
+	height: 77px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	padding-left: 55px;
+}
+.footer .icon a img{
+	margin-left: 20px;
+}
